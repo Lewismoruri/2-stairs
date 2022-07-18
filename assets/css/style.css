@@ -121,8 +121,12 @@ nav>ul>li>a:hover{
     right: 2rem;
     top: 85%;
 }
-.float{
+/* .float{
     position: absolute;
     left: 2rem;
     top: 170%;
+} */
+
+.float{
+    margin-top: 100px;
 }
