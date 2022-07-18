@@ -6,13 +6,19 @@ body {
 li {
     list-style: none;
 }
+li:hover {
+    color: orange;
+    cursor: pointer;
+}
 .containerTop {
-    background-image: url('/assets/css/back4.jpg');
+   background-image: url('/assets/css/back6.jpg');
    height: 65%;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   filter: blur(3px);
+   filter: blur(2px);
+   z-index: 0;
+
 }
 
 .navbar {
@@ -21,12 +27,13 @@ li {
     flex-flow: wrap;
     z-index: 2;
     position: absolute;
-    top: 11vh;
+    top: 3vh;
     color: white;
-    outline: 2px solid wheat;
     width: 90%;
     padding: 0 1rem;
     margin-left: 2rem;
+    gap: 3rem;
+    outline: 2px solid white;
 }
 .navItems {
     display: flex;
@@ -34,13 +41,42 @@ li {
     flex-flow: wrap;
     align-items: center;
     gap: 1rem;
+    width: 60%;
 }
 
 .logo {
     width: 30%;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: 600;    
 }
 .navChild {
     font-size: 1.5rem;
 }
 
+.shouting {
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero {
+    font-size: 6rem;
+    font-weight: 600;
+    padding-left: 7rem;
+}
+.subHero {
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.containerMid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
