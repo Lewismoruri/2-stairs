@@ -71,16 +71,18 @@ nav>ul>li>a:hover{
     margin-right: 40px;
    margin-top: 60px;
 }
+.content h1, .about h2{
+    font-family: 'Cormorant Upright', sans-serif;
+
+}
 .content h1{
     font-size: 5rem;
     margin-bottom: 20px;
-    font-family: 'Cormorant Upright', sans-serif;
 }
 .content p{
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 200;
-    color:;
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -95,3 +97,32 @@ nav>ul>li>a:hover{
    border-radius: 10px;
 }
 
+/* ABOUT SECTION */
+.about{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+.about h2{
+    text-align: center;
+    font-size: 4.5rem;
+
+
+}
+.aboutSec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+.floats img {
+    position: absolute;
+    right: 2rem;
+    top: 85%;
+}
+.float{
+    position: absolute;
+    left: 2rem;
+    top: 170%;
+}
