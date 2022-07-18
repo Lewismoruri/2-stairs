@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+.containerTop {
+    background-image: url('/assets/css/back4.jpg');
+   height: 65%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(3px);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    z-index: 2;
+    position: absolute;
+    top: 11vh;
+    color: white;
+    outline: 2px solid wheat;
+    width: 90%;
+    padding: 0 1rem;
+    margin-left: 2rem;
+}
+.navItems {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 30%;
+    font-size: 2.5rem;
+}
+.navChild {
+    font-size: 1.5rem;
+}
+
