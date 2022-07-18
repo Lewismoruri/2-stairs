@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    
+}
 nav{
     /* background-color: blue; */
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -46,4 +49,45 @@ nav>button{
 }
 nav>ul>li>a:hover{
     color: #ed5625;
+}
+.hero{
+    background-color: #0C0C07;
+    color: #FFFF;
+    height: 70vh;
+    width: 100%;
+
+}
+.heroSec{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+     width: 85%;
+     margin: auto;
+    
+}
+.content{
+    /* background-color: red; */
+    width: 700px;
+    margin-right: 40px;
+   margin-top: 60px;
+}
+.content h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.content p{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    
+}
+.content button{
+    background: #ed5625;
+    color: #FFFF;
+    padding: 10px;
+    width: 200px;
+    font-size: 1.5rem;
+   font-weight: 600;
+   border: none;
+   border-radius: 10px;
 }
