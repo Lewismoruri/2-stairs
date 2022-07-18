@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: gray;
     margin: 0;
     box-sizing: border-box;
 }
@@ -79,4 +79,16 @@ li:hover {
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
+    margin: 2rem 0;
+}
+.midImage {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 40%;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
