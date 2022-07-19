@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
 body {
-    background-color: gray;
+    background-color: black;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+    color: white;
+    
     
 }
 li {
     list-style: none;
 }
 li:hover {
-    color: orange;
+    color:#ed5625ff;;
     cursor: pointer;
 }
 .containerTop {
    background-image: url('/assets/css/back6.jpg');
    height: 65%;
-   background-position: center;
+   background-position: 50% 65%;
    background-repeat: no-repeat;
    background-size: cover;
    filter: blur(2px);
@@ -28,11 +32,11 @@ li:hover {
     flex-flow: wrap;
     z-index: 2;
     position: absolute;
-    top: 3vh;
+    top: 4vh;
+    left: 3vw;
     color: white;
     width: 90%;
-    padding: 0 1rem;
-    margin-left: 2rem;
+    margin: auto;
     gap: 3rem;
     outline: 2px solid white;
 }
@@ -78,18 +82,64 @@ li:hover {
 
 .containerMid {
     display: flex;
+    flex-direction: row;
     flex-flow: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 2rem 0;
+    outline: 2px solid white;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    height: 50vh;
+    overflow: hidden;
+}
+.containerMid div {
+    
 }
 .midImage {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 40%;
+    outline: 2px solid red;
+    width: 30%;
 }
+
+.glass{
+    height: 50%;
+}
+
 .address {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    outline: 2px solid black;
+    width: 50%;
+}
+.addressTitle {
+    height: 25%;
+    gap: 1em 0;
+}
+.addressTitle p {
+    font-size: 2rem;
+    color: #ed5625ff;
+}
+.contacts {
+    height: 20%;
+    display: flex;
+    flex-flow: wrap;
+    outline: 3px solid green;
+}
+.contacts input {
+    width: 30%;
+    margin: 0 0.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.times {
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
 }
