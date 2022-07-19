@@ -47,9 +47,27 @@ nav>button{
    border: none;
    border-radius: 10px;
 }
+nav>ul>li>a{
+    transform: translateY(5px)  ;
+    transition: all 0.2s;
+    
+}
 nav>ul>li>a:hover{
+    width: 100%;
+    height: 5px;
+    border-bottom: solid #ed5625;
     color: #ed5625;
 }
+.login:hover{
+    background-color: transparent;
+    color: #ed5625;
+    border: 2px solid #ed5625;
+}
+
+button{
+    cursor:pointer;
+}
+/* HOME SECTION */
 .hero{
     background-color: black;
     color: #FFFF;
@@ -98,7 +116,7 @@ nav>ul>li>a:hover{
    transition:0.5s ease;
 }
 .content button:hover{
-    background: #FFFFFF;
+    background: transparent;
     color: #ed5625ff;
     border: 2px solid #ed5625ff;
 }
@@ -125,7 +143,7 @@ nav>ul>li>a:hover{
 .floats img {
     position: absolute;
     right: 2rem;
-    top: 112%;
+    top: 102%;
 }
 /* .float{
     position: absolute;
@@ -148,11 +166,14 @@ nav>ul>li>a:hover{
 .cardContent{
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
 
 }
-.cardContent p{
+.cardContent .image{
+    margin-right: 15px;
     
 }
+
 
 /* MENU */
 .menu {
@@ -391,6 +412,15 @@ footer{
 .footer>ul>.title{
     font-weight: 900;
 }
+.footer>ul>li:hover{
+    color: #ed5625;
+}
+
+.dow{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
 .socials{
     display: flex;
     flex-direction: column;
@@ -402,4 +432,10 @@ footer{
 .media{
     display: flex;
     justify-content: space-around;
+}
+svg,i{
+    transition: 0.5s ease;
+}
+svg:hover, i:hover{
+    color: #ed5625;
 }
