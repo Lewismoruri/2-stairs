@@ -32,7 +32,7 @@ nav>ul>li{
    font-size: 1.2rem;
    font-weight: 600;
 }
-nav>label{
+label{
     color: #ed5625;
     font-size: 2rem;
     font-weight: 800;
@@ -125,7 +125,7 @@ nav>ul>li>a:hover{
 .floats img {
     position: absolute;
     right: 2rem;
-    top: 85%;
+    top: 112%;
 }
 /* .float{
     position: absolute;
@@ -143,7 +143,7 @@ nav>ul>li>a:hover{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .cardContent{
     display: flex;
@@ -207,7 +207,7 @@ nav>ul>li>a:hover{
     
 }
 .container1 p, h4{
-    color: #fff;
+    color: #FFFF;
     text-align: center;
    
 }
@@ -259,8 +259,8 @@ nav>ul>li>a:hover{
     border-radius: 6px;
     font-size: 1.5rem;
     background: #ed5625ff;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #FFFF;
+    border: 2px solid #FFFF;
     cursor: pointer;
     transition: 0.5s ease;
 }
@@ -316,7 +316,7 @@ nav>ul>li>a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #FFFF;
     width: 50px;
     height: 50px;
     background: #ed5625;
@@ -343,7 +343,7 @@ nav>ul>li>a:hover{
 
 }
 .arrow:hover{
-     background: #fff;
+     background: #FFFF;
      color: #ed5625;
      border: 1px solid #ed5625;
     
@@ -354,3 +354,52 @@ nav>ul>li>a:hover{
    
 }
 
+/* FOOTER SECTION */
+
+footer{
+    width: 85%;
+    margin: auto;
+    background-color: black;
+    color: #FFFF;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    height: 40vh;
+}
+.footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    
+}
+.left{
+    /* background-color: aqua; */
+    width: 30%;  
+}
+.left p{
+    margin-top: 2rem;
+}
+.footer>ul{
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer>ul>.title{
+    font-weight: 900;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.socials>p{
+    font-weight: 900;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+}
