@@ -95,6 +95,12 @@ nav>ul>li>a:hover{
    font-weight: 600;
    border: none;
    border-radius: 10px;
+   transition:0.5s ease;
+}
+.content button:hover{
+    background: #FFFFFF;
+    color: #ed5625ff;
+    border: 2px solid #ed5625ff;
 }
 
 /* ABOUT SECTION */
@@ -105,7 +111,7 @@ nav>ul>li>a:hover{
 }
 .about h2{
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4rem;
 
 
 }
@@ -161,7 +167,7 @@ nav>ul>li>a:hover{
 
 .menu h1 {
     color: #000;
-    font-size: 3rem;
+    font-size: 4rem;
     justify-content: center;
     text-align: center;
 }
@@ -251,7 +257,7 @@ nav>ul>li>a:hover{
     padding: 10px;
     outline: none;
     border-radius: 6px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     background: #ed5625ff;
     color: #fff;
     border: 2px solid #fff;
@@ -267,4 +273,52 @@ nav>ul>li>a:hover{
 
 .menu .empty {
     padding-top: 2rem;
+}
+
+/* CUSTOMER REVIEWS */
+.reviews{
+    width: 50%;
+    margin: auto;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.reviews h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 40px;
+
+}
+.user p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.reviewCont span{
+    font-size: 1.7rem;
+    margin-top: 20px;
+    color: #ed5625;
+}
+.reviewCont span .checked{
+    color: #ed5625;
+}
+.reviewMain{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   /* align-items: center; */
+}
+.reviewCont p{
+    font-size: 1.4rem;
+}
+.arrow i{
+    transition: 0.5s ease-out;
+}
+.arrow i:hover{
+     color: #fff;
+     background-color: #ed5625;
+     width: 50px;
+     height: 50px;
+     border-radius: 25px;
+     text-align: center;
 }
