@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+
+/* General styles*/
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: black;
     margin: 0;
-    box-sizing: border-box;
+    
     font-family: 'Cormorant Upright', serif;
     color: white;
     overflow-x: hidden;
@@ -16,6 +21,8 @@ li:hover {
     color:#ed5625ff;;
     cursor: pointer;
 }
+
+/* =========================================The first section ======================================================*/
 .containerTop {
    background-image: url('/assets/css/back6.jpg');
    height: 65%;
@@ -39,8 +46,30 @@ li:hover {
     width: 90%;
     margin: auto;
     gap: 3rem;
-    outline: 2px solid white;
 }
+/* code for hamburger menu */
+.dropDown {
+    width: 8vw;
+    position: absolute;
+    top: 5.5vh;
+    right: 9vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+}
+.down{
+    background-color: #ed5625ff;
+    width: 90%;
+    height: 25%;
+    content: "";
+    
+}
+/*code for navbar items */
 .navItems {
     display: flex;
     justify-content: space-evenly;
@@ -58,7 +87,10 @@ li:hover {
 }
 .navChild {
     font-size: 1.5rem;
+    transition: all 0.2s ease;
 }
+
+/* ===========================Second container=================================================== */
 
 .shouting {
     position: absolute;
@@ -79,7 +111,9 @@ li:hover {
 .subHero {
     font-size: 1.5rem;
     width: 70%;
+    margin-top: 2rem;
 }
+/* ================================Third container =========================================*/
 
 .containerMid {
     display: flex;
@@ -87,7 +121,6 @@ li:hover {
     flex-flow: wrap;
     justify-content: space-between;
     margin: 2rem 0;
-    outline: 2px solid white;
     width: 90%;
     margin: auto;
     padding: 2rem;
@@ -99,7 +132,6 @@ li:hover {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    outline: 2px solid red;
     width: 30%;
 }
 
@@ -111,7 +143,6 @@ li:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    outline: 2px solid black;
     width: 50%;
 }
 .addressTitle {
@@ -126,7 +157,7 @@ li:hover {
     height: 20%;
     display: flex;
     flex-flow: wrap;
-    outline: 3px solid green;
+   
 }
 .contacts input {
     width: 30%;
@@ -135,24 +166,25 @@ li:hover {
     text-align: center;
     font-size: 1.2em;
 }
+
 .separate {
     height: 3vh;
 
 }
+
+/* ==============reservation details section =============================*/
 .times {
     margin: auto;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
     width: 90%;
-    outline: 2px solid blue;
     justify-content: center;
     height: 20vh;
     font-size: 1.5rem;
 }
 .times div {
     width: 30%;
-    outline: 2px solid white;
     text-align: center;
 }
 .times div p:first-child {
@@ -161,4 +193,145 @@ li:hover {
 }
 .times div p:last-child {
     font-weight: 100;
+}
+
+/* ==============================================Footer =====================================================*/
+
+
+
+/* =============================================media queries============================================================ */
+
+@media screen and (max-width: 640px) {
+    html {
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        height: 100%;
+
+        
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .droplink {}
+    .containerTop {
+        background-image: url('/assets/css/back6.jpg');
+        background-size: cover;
+        background-position: 50% 70%;
+        height: 40vh;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .navItems {
+        display: none;
+    }
+    .dropDown {
+        display: flex;
+        gap:3px;
+        border-radius: 5px;
+        right: 12vw;
+        top: 4.5vh;
+        cursor: pointer;
+    }
+    .down {
+        height: 7px;
+    }
+    .down:hover {
+        cursor: pointer;
+    }
+
+    .hero {
+        font-size: 3.5rem;
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .subHero {
+        font-size: 1.3rem;
+        margin-left: -2rem;
+    }
+    .containerMid {
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        justify-content: space-between;
+        margin: 0;
+        
+        width: 90%;
+        margin: auto;
+        height: 0;
+        overflow-x: hidden;
+        display: none;
+    }
+    .midImage {
+        display: none;
+    }
+    address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.addressTitle {
+    height: 25%;
+    gap: 1rem 0;
+}
+.addressTitle p {
+    font-size: 2rem;
+    color: #ed5625ff;
+}
+.contacts {
+    height: 20%;
+    display: flex;
+    flex-flow: wrap;
+  
+}
+.contacts input {
+    width: 30%;
+    margin: 0 0.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+.shouting {
+    position: absolute;
+    top: 13%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.separate {
+    height: 3vh;
+}
+.times {
+    display: none;
+}
+    .container {
+        width: 74%;
+        margin: auto;
+    }
+    .container p {
+        color: #ed5625ff;
+        font-size: 2rem;
+        margin: 0;
+    }
+    .contacts {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        margin: 2rem 1rem 0 0;
+        
+    }
+    .contacts input {
+        width: 35%;
+        font-size: 15px;
+    }
+
 }
