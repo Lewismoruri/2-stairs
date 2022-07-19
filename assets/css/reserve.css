@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     font-family: 'Cormorant Upright', serif;
     color: white;
+    overflow-x: hidden;
     
     
 }
@@ -136,10 +137,30 @@ li:hover {
     text-align: center;
     font-size: 1.2em;
 }
+.separate {
+    height: 3vh;
 
+}
 .times {
-    margin: 2rem 0;
+    margin: auto;
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
+    width: 90%;
+    outline: 2px solid blue;
+    justify-content: center;
+    height: 20vh;
+    font-size: 1.5rem;
+}
+.times div {
+    width: 30%;
+    outline: 2px solid white;
+    text-align: center;
+}
+.times div p:first-child {
+    font-weight: bold;
+    
+}
+.times div p:last-child {
+    font-weight: 100;
 }
