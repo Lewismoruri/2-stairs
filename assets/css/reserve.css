@@ -3,34 +3,49 @@
 /* General styles*/
 *{
     box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+}
+h2 {
+    margin-top: 3.0vh;
 }
 body {
     background-color: black;
     margin: 0;
     
-    font-family: 'Cormorant Upright', serif;
+    
     color: white;
     overflow-x: hidden;
     
     
 }
+h2.title {
+    margin-top: 2rem;
+}
+.dow p {
+    text-align: center;
+}
 li {
     list-style: none;
 }
 li:hover {
-    color:#ed5625ff;;
+    color: #ed5625ff;
     cursor: pointer;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* =========================================The first section ======================================================*/
 .containerTop {
    background-image: url('/assets/css/back6.jpg');
    height: 65%;
-   background-position: 50% 65%;
+   background-position: 50% 75%;
    background-repeat: no-repeat;
    background-size: cover;
    filter: blur(2px);
    z-index: 0;
+   background-color: black;
 
 }
 
@@ -60,7 +75,6 @@ li:hover {
     align-items: center;
     display: none;
     
-    
 }
 .down{
     background-color: #ed5625ff;
@@ -79,11 +93,13 @@ li:hover {
     width: 60%;
 }
 
-.logo {
+.logo-top {
     width: 30%;
-    font-size: 3rem;
-    font-family: monospace;
+    font-size: 5rem;
     font-weight: 600;    
+}
+a.logo {
+    color: #ed5625ff;
 }
 .navChild {
     font-size: 1.5rem;
@@ -107,6 +123,7 @@ li:hover {
     font-size: 6rem;
     font-weight: 600;
     padding-left: 7rem;
+    color: #ed5625ff  ;
 }
 .subHero {
     font-size: 1.5rem;
@@ -151,13 +168,12 @@ li:hover {
 }
 .addressTitle p {
     font-size: 2rem;
-    color: #ed5625ff;
+    color:#ed5625ff  ;
 }
 .contacts {
     height: 20%;
     display: flex;
     flex-flow: wrap;
-   
 }
 .contacts input {
     width: 30%;
@@ -168,7 +184,10 @@ li:hover {
 }
 
 .separate {
-    height: 3vh;
+    margin-top: 9vh;
+    height: 1vh;
+    width: 100%;
+    content: " ";
 
 }
 
@@ -197,29 +216,103 @@ li:hover {
 
 /* ==============================================Footer =====================================================*/
 
+footer{
+    width: 85%;
+    margin: auto;
+    background-color: black;
+    color: #FFFF;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    height: 40vh;
+}
+.footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    margin-bottom: 2vh;
+    
+}
+.logo {
+    font-size: 4rem;
+}
+.title {
+    font-size: 3rem;
+}
 
+.left{
+    /* background-color: aqua; */
+    width: 30%;
+    margin-top: 2vh;  
+}
+.left p{
+    margin-top: 2rem;
+}
+.footer>ul{
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.footer>ul>.title{
+    font-weight: 900;
+}
+.footer>ul>li:hover{
+    color: #ed5625ff ;
+}
+
+.dow{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.socials>p{
+    font-weight: 900;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+}
+svg,i{
+    transition: 0.5s ease;
+}
+svg:hover, i:hover, .logo:hover{
+    color: #ed5625ff ;
+}
+.logo {
+    color: white;
+}
+
+.footer-nav {
+    margin: 1.5vh 0;
+}
 /* =============================================media queries============================================================ */
 
 @media screen and (max-width: 640px) {
     html {
         padding: 0;
         margin: 0;
-        width: 95%;
-        height: 100%;
-
-        
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
     }
     * {
         box-sizing: border-box;
     }
 
-    .droplink {}
     .containerTop {
         background-image: url('/assets/css/back6.jpg');
         background-size: cover;
-        background-position: 50% 70%;
-        height: 40vh;
+        background-position: 50% 160%;
+    
     }
     .logo {
         font-size: 2rem;
@@ -233,16 +326,12 @@ li:hover {
         gap:3px;
         border-radius: 5px;
         right: 12vw;
-        top: 4.5vh;
+        top: 5vh;
         cursor: pointer;
     }
     .down {
         height: 7px;
     }
-    .down:hover {
-        cursor: pointer;
-    }
-
     .hero {
         font-size: 3.5rem;
         padding-left: 0;
@@ -253,85 +342,228 @@ li:hover {
         margin-left: -2rem;
     }
     .containerMid {
-        display: flex;
-        flex-direction: column;
+        display: block;
         flex-flow: wrap;
-        justify-content: space-between;
-        margin: 0;
-        
-        width: 90%;
+        width: 98%;
         margin: auto;
-        height: 0;
+        height: 55vh;
         overflow-x: hidden;
-        display: none;
+
     }
     .midImage {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 30%;
         display: none;
     }
-    address {
+
+.address {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
-}
-.addressTitle {
-    height: 25%;
-    gap: 1rem 0;
-}
-.addressTitle p {
-    font-size: 2rem;
-    color: #ed5625ff;
-}
-.contacts {
-    height: 20%;
-    display: flex;
-    flex-flow: wrap;
-  
-}
-.contacts input {
-    width: 30%;
-    margin: 0 0.5rem;
-    height: 3.5rem;
-    text-align: center;
-    font-size: 1.2em;
-}
-.shouting {
-    position: absolute;
-    top: 13%;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
 }
+.addressTitle {
+    height: 10%;
 
-.separate {
-    height: 3vh;
 }
+.addressTitle p {
+    display: inline-flex;
+    margin: 0;
+    font-size: 2rem;
+    color:#ed5625ff  }
+
+.contacts {
+   
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    gap: 5px;
+}
+.contacts input {
+    width: 40%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.1em;
+}
+
 .times {
-    display: none;
+    font-size: 1em;
 }
-    .container {
-        width: 74%;
-        margin: auto;
-    }
-    .container p {
-        color: #ed5625ff;
-        font-size: 2rem;
-        margin: 0;
-    }
-    .contacts {
-        flex-direction: row;
-        justify-content: center;
-        gap: 5px;
-        margin: 2rem 1rem 0 0;
-        
-    }
-    .contacts input {
-        width: 35%;
-        font-size: 15px;
-    }
+.times div {
+    width: 50%;
+}
+
+.footer{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    
+}
+.left{
+    /* background-color: aqua; */
+    width: 100%;  
+}
+.left p{
+    margin-top: 2rem;
+}
+
+.navbar {
+    height: 25vh;
+}
+.logo-top {
+    font-size: 3rem;
+}
+.shouting {
+    height: 40vh;
+    position: absolute;
+}
+.highlight {
+    position: relative;
+}
 
 }
+
+
+
+@media screen and (max-width:870px) {
+    .navItems {
+        display: none;
+    }
+    .dropDown {
+        display: flex;
+        gap:3px;
+        border-radius: 5px;
+        right: 1vw;
+        top: 8vh;
+        cursor: pointer;
+    }
+    .down {
+        height: 7px;
+    }
+    .logo-top {
+        margin: 1.5rem;
+        font-size: 3rem;
+    }
+
+    .containerTop {
+        background-image: url('/assets/css/back6.jpg');
+        background-size: cover;
+        background-position: 50% 79%;
+    
+    }
+    
+    .down {
+        height: 7px;
+    }
+    .hero {
+        font-size: 3.5rem;
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .subHero {
+        font-size: 1.3rem;
+        margin-left: -2rem;
+    }
+    .containerMid {
+        display: block;
+        flex-flow: wrap;
+        width: 98%;
+        margin: auto;
+        height: 55vh;
+        overflow-x: hidden;
+
+    }
+    .midImage {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 30%;
+        display: none;
+    }
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.addressTitle {
+    height: 10%;
+
+}
+.addressTitle p {
+    display: inline-flex;
+    margin: 0;
+    font-size: 2rem;
+    color:#ed5625ff  }
+
+.contacts {
+   
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    gap: 9px;
+}
+.contacts input {
+    width: 40%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.1em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.times {
+    font-size: 1.2em;
+}
+.times div {
+    width: 50%;
+}
+
+.footer{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    
+}
+.left{
+    /* background-color: aqua; */
+    width: 100%;  
+}
+.left p{
+    margin-top: 2rem;
+}
+
+.navbar {
+    height: 25vh;
+}
+.logo-top {
+    font-size: 3rem;
+}
+.shouting {
+    height: 40vh;
+    position: absolute;
+}
+}
+
+
+
+
+
+
+
+
+
+
