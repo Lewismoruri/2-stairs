@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500&family=Oleo+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cormorant Upright', serif;
+}
+.container {
+    background-image: url('../../../bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: auto;
+    top: 0;
+    margin-top: 0;
+    /* overflow: hidden; */
+    color: #fff;
+    
+}
+
+.main-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-links h4 {
+    font-size: 2rem;
+    line-height: 0;
+}
+
+.main-links h1 {
+    font-size: 5rem;
+    color: #f3e874ff;
+    line-height: 0;
+    letter-spacing: 0.04em;
+}
+
+.main-links .links {
+    display: flex;
+    align-items: center;
+}
+
+.links ul {
+    display: inline;
+    justify-content: space-between;
+}
+.links ul li {
+    display: inline;
+    justify-content: space-between;
+    font-size: 1.9rem;
+    margin-left: 2.6rem;
+    list-style: none;
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.links ul li a:hover {
+    color: #f3e874ff;
+}
+
+.links ul li a.active {
+    color: #f3e874ff;
+    transition: 0.5s ease;
+}
+
+.links ul li a.active:hover {
+    border-bottom: 1px solid #f3e874ff;
+}
+
+
+.button {
+    justify-content: center;
+    text-align: center;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+.button button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    background: #f3e874ff;
+    font-family: 'Cormorant Upright', serif;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    border: 2px solid #f3e874ff;
+    background: transparent;
+    color: #f3e874ff;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.head-text h1 {
+    font-size: 2.7rem;
+    color: #f3e874ff;
+}
+
+.head-text small {
+    font-size: 1.5rem;
+}
+.main-text .main-dinner {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 2rem;
+}
+
+.main-dinner .dinner1 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    border: 0.5px solid #f3e874ff;
+    border-bottom: 1px solid transparent;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text p {
+    color: #f3e874ff;
+    font-size: 1rem;
+}
+
+.dinner1 img {
+    width: 200px;
+    height: 200px;
+    margin-left: 1rem;
+}
+
+
+
+
+
+.main-text .main-dinner1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .main-text {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 2rem;
+} */
+
+.main-dinner1 .dinner1 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    border: 0.5px solid #f3e874ff;
+    border-bottom: 1px solid transparent;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text p {
+    color: #f3e874ff;
+    font-size: 1rem;
+}
+
+.dinner1 img {
+    width: 200px;
+    height: 200px;
+    margin-left: 1rem;
+}
+
+
+.button1 {
+    justify-content: center;
+    text-align: center;
+    margin-left: -1rem;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.button1 button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    background: #f3e874ff;
+    font-family: 'Cormorant Upright', serif;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button1 button:hover {
+    border: 2px solid #f3e874ff;
+    background: transparent;
+    color: #f3e874ff;
+}
