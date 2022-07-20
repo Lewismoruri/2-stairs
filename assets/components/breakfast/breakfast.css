@@ -100,6 +100,18 @@ body {
     color: #f3e874ff;
 }
 
+.links ul li a.home {
+    border: 1px solid #f3e874ff;
+    padding: 0.1rem 1rem;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+
+.links ul li a.home:hover {
+    color: #000;
+    background: #f3e874ff;
+}
+
 .container {
     display: flex;
     flex-direction: column;
