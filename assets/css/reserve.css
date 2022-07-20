@@ -59,7 +59,7 @@ a, a:hover, a:focus, a:active {
 } */
 /* =========================================The first section ======================================================*/
 .containerTop {
-   background-image: url('/assets/images/back6.jpg');
+   background-image: url('../images/back6.jpg');
    height: 65%;
    background-position: 50% 75%;
    background-repeat: no-repeat;
