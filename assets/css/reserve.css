@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+
+/* General styles*/
+*{
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+}
+h2 {
+    margin-top: 3.0vh;
+}
+body {
+    background-color: black;
+    margin: 0;
+    
+    
+    color: white;
+    overflow-x: hidden;
+    
+    
+}
+h2.title {
+    margin-top: 2rem;
+}
+button.in {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 8px 8px 8px 0;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: translateY(5px)  ;
+    transition: all 0.2s;
+}
+.dow p {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+li:hover {
+    color: #ed5625ff;
+    cursor: pointer;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(5px);
+    transition: all 0.2s;
+    
+}
+/* .navbar a:hover, .in:hover{
+    color: #ed5625;
+    text-decoration: underline ;
+    text-decoration-color: white;
+    background-color: white;
+
+    
+} */
+/* =========================================The first section ======================================================*/
+.containerTop {
+   background-image: url('/assets/css/back6.jpg');
+   height: 65%;
+   background-position: 50% 75%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(2px);
+   z-index: 0;
+   background-color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    z-index: 2;
+    position: absolute;
+    top: 4vh;
+    left: 3vw;
+    color: white;
+    width: 90%;
+    margin: auto;
+    gap: 3rem;
+}
+/* code for hamburger menu */
+.dropDown {
+    width: 8vw;
+    position: absolute;
+    top: 5.5vh;
+    right: 9vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+.down{
+    background-color: #ed5625ff;
+    width: 90%;
+    height: 25%;
+    content: "";
+    
+}
+/*code for navbar items */
+.navbar li>a:hover{
+    width: 100%;
+    height: 5px;
+    border-bottom: solid white;
+    color: #ed5625;
+}
+.navItems {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+}
+
+.logo-top {
+    width: 30%;
+    font-size: 5rem;
+    font-weight: 600;    
+}
+a.logo {
+    color: #ed5625ff;
+}
+.navChild {
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+/* ===========================Second container=================================================== */
+
+.shouting {
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero {
+    font-size: 6rem;
+    font-weight: 600;
+    padding-left: 7rem;
+    color: #ed5625ff  ;
+}
+.subHero {
+    font-size: 1.5rem;
+    width: 70%;
+    margin-top: 2rem;
+}
+/* ================================Third container =========================================*/
+
+.containerMid {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.midImage {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.glass{
+    width: 100%;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: max-content;
+
+}
+.addressTitle {
+    height: 25%;
+    gap: 1em 0;
+}
+.addressTitle p {
+    font-size: 2.2rem;
+    color:#ed5625ff  ;
+}
+.contacts {
+    height: 50%;
+    display: flex;
+    flex-flow: wrap;
+}
+.contacts .input {
+    width: 30%;
+    margin: 0 0.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.separate {
+    margin-top: 9vh;
+    height: 1vh;
+    width: 100%;
+    content: " ";
+    display: block;
+}
+
+
+/* ==============reservation details section =============================*/
+.times {
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    height: 20vh;
+    font-size: 1.5rem;
+}
+.times div {
+    width: 30%;
+    text-align: center;
+}
+.times div p:first-child {
+    font-weight: bold;
+    
+}
+.times div p:last-child {
+    font-weight: 100;
+}
+
+/* ==============================================Footer =====================================================*/
+
+footer{
+    width: 85%;
+    margin: auto;
+    background-color: black;
+    color: #FFFF;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    height: 40vh;
+}
+.footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    margin-bottom: 2vh;
+    
+}
+.logo {
+    font-size: 4rem;
+}
+.title {
+    font-size: 3rem;
+}
+
+.left{
+    /* background-color: aqua; */
+    width: 30%;
+    margin-top: 2vh;  
+}
+.left p{
+    margin-top: 2rem;
+}
+.footer>ul{
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer>ul>.title{
+    font-weight: 900;
+}
+.footer>ul>li:hover{
+    color: #ed5625ff ;
+}
+
+.dow{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.socials>p{
+    font-weight: 900;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+}
+svg,i{
+    transition: 0.5s ease;
+}
+svg:hover, i:hover, .logo:hover{
+    color: #ed5625ff ;
+}
+.logo {
+    color: white;
+}
+
+.footer-nav {
+    margin: 1.5vh 0;
+}
+/* =============================================media queries============================================================ */
+
+@media screen and (max-width: 640px) {
+    html {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+    .containerTop {
+        background-image: url('/assets/css/back6.jpg');
+        background-size: cover;
+        background-position: 50% 160%;
+    
+    }
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .navItems {
+        display: none;
+    }
+    .dropDown {
+        display: flex;
+        gap:3px;
+        border-radius: 5px;
+        right: 12vw;
+        top: 5vh;
+        cursor: pointer;
+    }
+    .down {
+        height: 7px;
+    }
+    .hero {
+        font-size: 3.5rem;
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .subHero {
+        font-size: 1.3rem;
+        margin-left: -2rem;
+    }
+    .containerMid {
+
+        flex-flow: wrap;
+        width: 98%;
+        margin: auto;
+        height: 55vh;
+        overflow-x: hidden;
+
+    }
+    .midImage {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 30%;
+        display: none;
+    }
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.addressTitle {
+    height: 10%;
+
+}
+.addressTitle p {
+    display: inline-flex;
+    margin: 0;
+    font-size: 2rem;
+    color:#ed5625ff  }
+
+.contacts {
+   
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    gap: 5px;
+}
+.contacts input {
+    width: 40%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.times {
+    font-size: 1em;
+}
+.times div {
+    width: 50%;
+}
+
+.footer{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    
+}
+.left{
+    /* background-color: aqua; */
+    width: 100%;  
+}
+.left p{
+    margin-top: 2rem;
+}
+
+.navbar {
+    height: 25vh;
+}
+.logo-top {
+    font-size: 3rem;
+}
+.shouting {
+    height: 40vh;
+    position: absolute;
+}
+.highlight {
+    position: relative;
+}
+
+}
+
+
+
+@media screen and (max-width:870px) {
+    .navItems {
+        display: none;
+    }
+    .dropDown {
+        display: flex;
+        gap:3px;
+        border-radius: 5px;
+        right: 1vw;
+        top: 8vh;
+        cursor: pointer;
+    }
+    .down {
+        height: 7px;
+    }
+    .logo-top {
+        margin: 1.5rem;
+        font-size: 3rem;
+    }
+
+    .containerTop {
+        background-image: url('/assets/css/back6.jpg');
+        background-size: cover;
+        background-position: 50% 79%;
+    
+    }
+    
+    .down {
+        height: 7px;
+    }
+    .hero {
+        font-size: 3.5rem;
+        padding-left: 0;
+        margin-left: -2rem;
+    }
+    .subHero {
+        font-size: 1.3rem;
+        margin-left: -2rem;
+    }
+    .containerMid {
+        flex-flow: wrap;
+        width: 98%;
+        margin: auto;
+        height: 55vh;
+        overflow-x: hidden;
+
+    }
+    .midImage {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 30%;
+        display: none;
+    }
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.addressTitle {
+    height: 10%;
+
+}
+.addressTitle p {
+    display: inline-flex;
+    margin: 0;
+    font-size: 2rem;
+    color:#ed5625ff  }
+
+.contacts {
+   
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    gap: 9px;
+}
+.contacts input {
+    width: 40%;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.1em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.times {
+    font-size: 1.2em;
+}
+.times div {
+    width: 50%;
+}
+
+.footer{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    
+}
+.left{
+    /* background-color: aqua; */
+    width: 100%;  
+}
+.left p{
+    margin-top: 2rem;
+}
+
+.navbar {
+    height: 25vh;
+}
+.logo-top {
+    font-size: 3rem;
+}
+.shouting {
+    height: 40vh;
+    position: absolute;
+}
+}
+
+
+
+
+@media screen and (max-width:1137) {
+    .containerMid {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+        margin: 2rem 0;
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+        height: 70vh;
+        overflow-x: hidden;
+    }
+    .contacts .input {
+        width: 30%;
+        margin: 0 0.5rem;
+        height: 3.5rem;
+        text-align: center;
+        font-size: 1.2em;
+        border: 2px solid wheat;
+    }
+    
+}
+
+
+
+
+
