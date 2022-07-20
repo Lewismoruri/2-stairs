@@ -568,3 +568,147 @@ body {
     margin-top: -14rem;
     padding-top: -3rem;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cards .card1 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card1 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card2 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card2 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card3 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card3 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card4 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .cards .card5 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card5 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card6 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card6 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card7 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card7 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card8 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card8 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card9 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card9 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card11 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card11 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card12 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card12 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+}
