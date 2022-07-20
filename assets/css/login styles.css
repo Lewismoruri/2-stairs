@@ -34,26 +34,17 @@
 .heading{
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: #ffff;
     font-size: 80px;
     padding-top: 1%;
 }
-#button{
-    background-color: #ed5625ff;
-    width: 400px;
-    padding: 20px 0px;
-    border: none;
-    margin-left: 40%;
-    border-radius:40px ;
-    color: #ffff;
-    font-size: xx-large;
-    font-weight: bold;
-    text-align: center;
-}
+
 #password{
     text-align: center;
     color: #ffff;
     font-size: x-large;
+    margin-right: 30%;
+
 }
 #name{
     text-align: justify;
@@ -62,22 +53,16 @@
     font-size: x-large;
     
 }
-#pass{
-    text-align: justify;
-    margin-left:40% ;
-    color:black;
-    font-size: x-large;
-}
+
 
 #holder{
-    width: 50%;
-  height: 50%;
-  margin: 15%;
+  width:70%;
+  height: 100%;
+  margin: 25%;
   padding-top: 1%;
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: #f3e874ff;
   opacity: 0.6;
   
   border-radius: 7px;
@@ -90,32 +75,39 @@
   justify-items: center;
   align-items: center;
 }
-.login-form-field::placeholder {
+.login-button::placeholder {
     color: #3a3a3a;
     
     
 }
 
-.login-form-field {
+.login-button {
     border: none;
     border-bottom: 1px solid #3a3a3a;
     margin-bottom: 10px;
-    border-radius: 3px;
+    border-radius: 40px;
     outline: none;
     padding: 0px 0px 5px 5px;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    
   }
 
-  #login-form-submit {
-    width: 100%;
-    padding: 7px;
+  #submit {
+    width: 120%;
+    padding: 20px;
+    margin-right: 20%;
     border: none;
-    border-radius: 40px;
+    border-radius: 100px;
     color: white;
     font-weight: bold;
     font-size: x-large;
     background-color: #ed5625ff;
     cursor: pointer;
     outline: none;
+    text-align: center;
+    
   }
 
   
@@ -124,21 +116,25 @@
   }
     
   .input-icons {
-      width: 100%;
+      width: 150%;
+      height: 300%;
+
       
   }
     
   .icon {
-      padding: 10px;
-      color: black;
-      min-width: 50px;
+      padding: 5px;
+      color: #ffff;
+      width: 100px;
       text-align:center
       
   }
     
   .input-field {
       width: 100%;
+      height: 200%;
       padding: 10px;
       text-align: center;
   }
+
 
