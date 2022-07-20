@@ -43,7 +43,7 @@ body{
     text-align: center;
     color: #ffff;
     font-size: x-large;
-    /* margin-right: 30%; */
+    margin-left: 25%;
 
 }
 form{
@@ -130,7 +130,9 @@ form{
       width: 100px;
       text-align:center
 }
-  
+ #reset{
+    color:#06558a;
+ }
   
 
 
