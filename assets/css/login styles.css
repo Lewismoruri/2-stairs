@@ -34,9 +34,9 @@
 .heading{
     text-align: center;
     font-weight: bold;
-    color: #ffff;
+    color: black;
     font-size: 80px;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 #button{
     background-color: #ed5625ff;
@@ -65,6 +65,80 @@
 #pass{
     text-align: justify;
     margin-left:40% ;
-    color: #ffff;
+    color:black;
     font-size: x-large;
 }
+
+#holder{
+    width: 50%;
+  height: 50%;
+  margin: 15%;
+  padding-top: 1%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #f3e874ff;
+  opacity: 0.6;
+  
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px grey;
+  margin-left: 25%;
+}
+#login{
+    align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.login-form-field::placeholder {
+    color: #3a3a3a;
+    
+    
+}
+
+.login-form-field {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+
+  #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #ed5625ff;
+    cursor: pointer;
+    outline: none;
+  }
+
+  
+  .input-icons i {
+      position: relative;
+  }
+    
+  .input-icons {
+      width: 100%;
+      
+  }
+    
+  .icon {
+      padding: 10px;
+      color: black;
+      min-width: 50px;
+      text-align:center
+      
+  }
+    
+  .input-field {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
+
