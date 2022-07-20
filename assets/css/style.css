@@ -121,12 +121,12 @@ button{
    transition:0.5s ease;
 }
 
-.image {
+.aboutSec .image, .heroSec .image{
     width: 100%;
     height: 100%;
 }
 
-.image img{
+.aboutSec .image img, .heroSec .image img{
     width: 100%;
     height: 100%;
 }
@@ -164,15 +164,10 @@ button{
     right: 2rem;
     top: 102%;
 }
-/* .float{
-    position: absolute;
-    left: 2rem;
-    top: 170%;
-} */
 
-.float{
+/* .float{
     margin-top: 100px;
-}
+} */
 
 /* BRIEF ABOUT THE HOTEL */
 .cards{
