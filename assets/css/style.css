@@ -78,14 +78,19 @@ button{
 .heroSec{
     display: flex;
     align-items:center;
+   
     justify-content: space-between;
      width: 85%;
      margin: auto;
     
 }
+.heroSec >.image>img{
+    max-width: 900px;
+    min-width: 300px;
+}
 .content{
     /* background-color: red; */
-    width:100%;
+    width: 85%;
     max-width: 800px;
     min-width: 500px;
     margin-right: 40px;
@@ -139,8 +144,12 @@ button{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+   
 }
-
+.aboutSec .image>img{
+    max-width: 500px;
+    min-width: 200px;
+}
     
 .floats img {
     position: absolute;
@@ -331,6 +340,12 @@ button{
    justify-content: space-around;
    align-items: center;
 }
+.column{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
 .reviewCont p{
     font-size: 1.4rem;
 }
@@ -461,13 +476,83 @@ svg:hover, i:hover{
     }
 }
 @media screen and (max-width:1450px){
+    /* .heroSec{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    } */
+    .reviews{
+        width: 100%;
+    }
+    .content{
+       
+        margin-right: 0px;
+       margin-top: 0px;
+    }
     .content h1{
         font-size: 4rem;    
     }
-    .heroSec,.about, .menu,{
+    .heroSec,.about, .menu, footer, nav{
        
          width: 100%;   
     }
+
+    .heroSec .image>img{
+        width: 700px;
+    }
+  .aboutSec .image>img{
+    width: 350px;
+  }
+  .floats img {
+    
+    top: 105%;
+}
   
+
+}
+
+@media screen and (max-width: 1080px) {
+    .hero{ 
+    height: 80vh;
+}
+.aboutSec, .heroSec{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.cards{
+    width: 100%;
+   
+    margin-top: 80px;
+}
+.about{
+    margin-top: 70px;
+}
+.aboutSec{
+    margin-top: 40px;
+}
+.content button{
+   margin-left: 40%;
+}
+.floats img { 
+    top: 120%;
+}
+.container {
+ gap: 2em;
+   flex-wrap: wrap;
+    margin-top: 70px;
+    height: fit-content;
+}
+.reviews h1{
+    margin-top: 10px;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 
 }
