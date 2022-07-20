@@ -570,6 +570,16 @@ svg:hover, i:hover{
 @media screen and (max-width: 950px) {
     .heroSec .image img {
         margin-left: -6rem;
+
+    }
+    .footer{
+        background-color: #ed5625;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 5rem;
+        
     }
 }
 
