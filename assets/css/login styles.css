@@ -134,5 +134,34 @@ form{
     color:#06558a;
  }
   
+#account{
+    text-align: center;
+    color: #ffff;
+    font-size: x-large;
+    margin-left: 25%;
 
+}
 
+#sign{
+    color:#06558a;
+}
+#App{
+    color: #ffff;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10%;
+}
+.social>img{
+    transition: 0.2s ease;
+}
+.social>img:hover{
+     
+    width: 200px;
+}
+
+.store{
+ 
+  margin: 90px;
+  
+  
+}
