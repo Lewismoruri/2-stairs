@@ -35,8 +35,7 @@ body{
     text-align: center;
     font-weight: bold;
     color: #ffff;
-    font-size: 50px;
-    /* padding-top: ; */
+    font-size: 50px
     margin-left: 20%;
     
 }
@@ -60,31 +59,6 @@ body{
     
 } */
 .log{
-<<<<<<< HEAD
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.log button {
-    margin: auto;
-    color: #fff;
-    padding: 1rem 2rem;
-    width: 410px;
-    background: #ed5625ff;
-    outline: none;
-    border: 2px solid #ed5625ff;
-    cursor: pointer;
-    font-size: 2rem;
-    border-radius: 40px;
-    margin-left: 6.2rem;
-    transition: 0.5s ease;
-}
-
-.log button:hover {
-    background: transparent;
-=======
     width: 400px;
     padding: 1.0rem;
     background-color: #ed5625ff;
@@ -96,8 +70,11 @@ body{
     cursor: pointer;
     border-radius: 20px;
     margin-left: 20%;
->>>>>>> 7c093aa68cf66472e00b2d891a712ecb3a21cebe
 }
+
+
+
+
 #login{
     /* background-color: aqua; */
     align-items: center;
@@ -158,7 +135,7 @@ body{
       width: 100px;
       text-align:center
 }
-<<<<<<< HEAD
+
  #reset{
     color:#06558a;
  }
@@ -169,18 +146,17 @@ body{
     font-size: x-large;
     margin-left: 25%;
 
-<<<<<<< HEAD
-=======
+}
+
   
->>>>>>> 150de78e4994668d965b4093cdd14f59727e84b1
+
 
 form {
     width: 100%;
     padding: 0;
     /* margin: 0; */
     margin-right: 15px;
-}
-=======
+
 }
 
 #sign{
@@ -209,7 +185,7 @@ form {
 }
 
 .store{
- background-color: aqua;
+
   margin-right: 10px;
   border-radius: 10px;
   
@@ -228,4 +204,3 @@ hr{
 h3{
     padding: 0 5px 0 5px;
 }
->>>>>>> 7c093aa68cf66472e00b2d891a712ecb3a21cebe
