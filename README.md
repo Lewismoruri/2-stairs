@@ -84,7 +84,7 @@ NodeJS
 ### Installation
 
 1. Clone the repo
-   git clone git@github.com:SheeTabz/DigiHoteL.git
+   git clone [git@github.com:SheeTabz/DigiHoteL.git](https://github.com/SheeTabz/DigiHoteL.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
