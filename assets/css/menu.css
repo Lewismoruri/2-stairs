@@ -89,6 +89,14 @@ body {
 .links ul li a.active:hover {
     border-bottom: 1px solid #f3e874ff;
 }
+.button button a {
+    color: #000;
+    text-decoration: none;
+}
+
+.button button a:hover {
+    color: #f3e874ff;
+}
 
 .content {
     display: flex;
