@@ -13,7 +13,15 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-      </ul>
+        <li><a href="#Demo">Demo</a></li>
+        <li><a href="#Future-implementations ">Installation</a></li>
+        <li><a href="#Demo">Demo</a></li>
+        <li><a href="# Contribution"> Contribution</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="# contributors">Contributors</a></li>
+
+        
+   </ul>
     </li>
 <ul>
     <li><a href="#license">License</a></li>
@@ -91,12 +99,16 @@ Use the link provided to navigate to the DigiHotel website.
 The page appears as shown below and has the following features:
 - This is the landingpage: It a descriptive section that tells you what the website is all about. The home,menu,about,reservations buttons and the login link will help you navigate through the pages.
 <img src="/assets/images/homePage.png">
--This is the Login page:It is an entry page to a website that requires user identification and authentication, regularly performed by entering a username and password combination. Logins may provide access to the homepage part of the DigiHoteL website. Logging in not only provides site access for the user, but also allows the website to track user actions and behavior.
+
+This is the Login page:It is an entry page to a website that requires user identification and authentication, regularly performed by entering a username and password combination. Logins may provide access to the homepage part of the DigiHoteL website. Logging in not only provides site access for the user, but also allows the website to track user actions and behavior.
 <img src="/assets/images/Loginpage.png">
+
 - Other pages: This is the Menu page that has a list of dishes that are available for sale in a food service outlet or that can be served at a meal. <br>
 <img src="/assets/images/Menu.png">
-- This is how the Abou Us section will look like.
-c
+
+- This is how the About Us section will look like.
+<img src="/assets/images/About%20US.png">
+
 -This is the reservations page:The purpose of the hotel reservation page is to allow visitors to book their meals online using the website. It enables a more seamless booking procedure and conveniently collects information into our database.
 <img src="/assets/images/Reservations.png">
 
@@ -142,7 +154,9 @@ If you need to contribute to this project follow the steps below:<br>
             </div>
         </div>
     </div>
+  ```
       <!-- CSS PART OF THE ABOVE SECTIONS -->
+```css
     nav{
     /* background-color: blue; */
     width: 85%;
@@ -217,7 +231,7 @@ nav>button{
     font-family: 'Cormorant Upright', sans-serif;
 
 }
-
+```
 
 <!-- LICENSE -->
 ## License
@@ -243,9 +257,8 @@ Project Link: [https://github.com/SheeTabz/DigiHoteL]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- ACKNOWLEDGMENTS -->
-## Contributors
+## contributors
 <ol>
 <li>Salvato Luis = Team lead</li>      (https://github.com/salvatoluice)
 <li>Tabitha Muriithi = Team member</li>(https://github.com/SheeTabz)
