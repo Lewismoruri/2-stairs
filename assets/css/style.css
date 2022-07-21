@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Cormorant Upright', serif;
 }
@@ -317,10 +320,18 @@ button{
 }
 
 /* CUSTOMER REVIEWS */
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+
+
+
+/* CUSTOMER REVIEWS */
 .reviews{
     width: 50%;
     margin: auto;
     height: 45vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -354,6 +365,7 @@ button{
    flex-direction: column;
    justify-content: center;
    text-align: center;
+   margin-top: 50px;
 }
 .reviewCont p{
     font-size: 1.4rem;
@@ -400,6 +412,39 @@ button{
     color: #ed5625;
    
 }
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
 
 /* FOOTER SECTION */
 
