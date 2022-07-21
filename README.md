@@ -233,6 +233,22 @@ nav>button{
 }
 ```
 
+
+<!-- ACKNOWLEDGMENTS -->
+## Contributors & Contact Info
+<ol>
+<li>Salvato Luis (https://github.com/salvatoluice)</li>      
+<li>Tabitha Muriithi (https://github.com/SheeTabz)</li>
+<li>Kevin Guchu (https://github.com/Kangonga)</li>     
+<li>Rhoda Gachimu (https://github.com/Rhoda-Gachimu)</li>   
+</ol>
+
+Project Link: [https://github.com/SheeTabz/DigiHoteL]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 <!-- LICENSE -->
 ## License
 ### MIT License
@@ -242,32 +258,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-(https://github.com/salvatoluice)
-(https://github.com/SheeTabz)
-(https://github.com/Kangonga)
-(https://github.com/Rhoda-Gachimu)
-
-Project Link: [https://github.com/SheeTabz/DigiHoteL]
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## contributors
-<ol>
-<li>Salvato Luis = Team lead</li>      (https://github.com/salvatoluice)
-<li>Tabitha Muriithi = Team member</li>(https://github.com/SheeTabz)
-<li>Kevin Guchu = Team member</li>     (https://github.com/Kangonga)
-<li>Rhoda Gachimu = Team member</li>   (https://github.com/Rhoda-Gachimu)
-</ol>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
