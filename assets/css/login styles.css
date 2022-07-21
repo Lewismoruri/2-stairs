@@ -35,8 +35,9 @@ body{
     text-align: center;
     font-weight: bold;
     color: #ffff;
-    font-size: 80px;
-    padding-top: 1%;
+    font-size: 50px;
+    margin-left: 20%;
+    
 }
 
 #password{
@@ -49,7 +50,7 @@ body{
 /* form{
     height: fit-content;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%;
     display: flex;
     flex-direction: column;
@@ -57,31 +58,23 @@ body{
    
     
 } */
-.log{
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.log button {
-    margin: auto;
-    color: #fff;
-    padding: 1rem 2rem;
-    width: 410px;
-    background: #ed5625ff;
-    outline: none;
-    border: 2px solid #ed5625ff;
+.log button{
+    width: 400px;
+    padding: 1.0rem;
+    background-color: #ed5625ff;
+    margin:10px 0 0 0;
+    border: none;
+    color:#ffff;
+    font-size: 1.5rem;
+    font-weight: 800;
     cursor: pointer;
-    font-size: 2rem;
-    border-radius: 40px;
-    margin-left: 6.2rem;
-    transition: 0.5s ease;
+    border-radius: 20px;
+    margin-left: 15%;
 }
 
-.log button:hover {
-    background: transparent;
-}
+
+
+
 #login{
     /* background-color: aqua; */
     align-items: center;
@@ -110,7 +103,7 @@ body{
     padding: 20px;
     /* margin-right: 20%; */
     border: none;
-    border-radius: 100px;
+    border-radius: 20px;
     color: white;
     font-weight: bold;
     font-size: x-large;
@@ -142,19 +135,75 @@ body{
       width: 100px;
       text-align:center
 }
-<<<<<<< HEAD
+
  #reset{
     color:#06558a;
  }
   
+#account{
+    text-align: center;
+    color: #ffff;
+    font-size: x-large;
+    margin-left: 25%;
 
-=======
+}
+
   
->>>>>>> 150de78e4994668d965b4093cdd14f59727e84b1
+
 
 form {
-    width: 100%;
-    padding: 0;
-    /* margin: 0; */
-    margin-right: 15px;
+    height: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#sign{
+    color:#06558a;
+}
+#App{
+    color: #ffff;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10%;
+}
+.social>img{
+    transition: 0.2s ease;
+}
+.social>img:hover{
+    
+    width: 200px;
+}
+.social{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+    margin-left: 25%;
+    
+}
+
+.store{
+
+  margin-right: 10px;
+  border-radius: 10px;
+  
+  
+}
+.horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    margin-left: 15%;
+}
+hr{
+    width: 150px;
+}
+h3{
+    padding: 0 7px 0 7px;
 }
