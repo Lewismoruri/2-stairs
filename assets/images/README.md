@@ -94,9 +94,9 @@ The page appears as shown below and has the following features:
 -This is the Login page:It is an entry page to a website that requires user identification and authentication, regularly performed by entering a username and password combination. Logins may provide access to the homepage part of the DigiHoteL website. Logging in not only provides site access for the user, but also allows the website to track user actions and behavior.
 <img src="/assets/images/Loginpage.png">
 - Other pages: This is the Menu page that has a list of dishes that are available for sale in a food service outlet or that can be served at a meal. <br>
-<img src="/assets/images/Menu.png/">
+<img src="/assets/images/Menu.png">
 - This is how the Abou Us section will look like.
-<img src="/assets/images/About%20US.png">
+c
 -This is the reservations page:The purpose of the hotel reservation page is to allow visitors to book their meals online using the website. It enables a more seamless booking procedure and conveniently collects information into our database.
 <img src="/assets/images/Reservations.png">
 
