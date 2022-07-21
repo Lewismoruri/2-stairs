@@ -327,6 +327,7 @@ button{
 .reviews{
     width: 50%;
     margin: auto;
+    height: 45vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -361,6 +362,7 @@ button{
    flex-direction: column;
    justify-content: center;
    text-align: center;
+   margin-top: 50px;
 }
 .reviewCont p{
     font-size: 1.4rem;
