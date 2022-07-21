@@ -166,11 +166,13 @@ form{
     display: flex;
     justify-content:center ;
     margin-left: 25%;
+    
 }
 
 .store{
  background-color: aqua;
   margin-right: 10px;
+  border-radius: 10px;
   
   
 }
