@@ -35,8 +35,10 @@ body{
     text-align: center;
     font-weight: bold;
     color: #ffff;
-    font-size: 80px;
-    padding-top: 1%;
+    font-size: 50px;
+    /* padding-top: ; */
+    margin-left: 20%;
+    
 }
 
 #password{
@@ -49,7 +51,7 @@ body{
 form{
     height: fit-content;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%;
     display: flex;
     flex-direction: column;
@@ -58,8 +60,8 @@ form{
     
 }
 .log{
-    width: 500px;
-    padding: 1.5rem;
+    width: 400px;
+    padding: 1.0rem;
     background-color: #ed5625ff;
     margin:10px 0 0 0;
     border: none;
@@ -67,7 +69,7 @@ form{
     font-size: 1.5rem;
     font-weight: 800;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 20px;
     margin-left: 20%;
 }
 #login{
@@ -98,7 +100,7 @@ form{
     padding: 20px;
     /* margin-right: 20%; */
     border: none;
-    border-radius: 100px;
+    border-radius: 20px;
     color: white;
     font-weight: bold;
     font-size: x-large;
@@ -155,13 +157,33 @@ form{
     transition: 0.2s ease;
 }
 .social>img:hover{
-     
+    
     width: 200px;
+}
+.social{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+    margin-left: 25%;
 }
 
 .store{
- 
-  margin: 90px;
+ background-color: aqua;
+  margin-right: 10px;
   
   
+}
+.horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    margin-left: 15%;
+}
+hr{
+    width: 100px;
+}
+h3{
+    padding: 0 5px 0 5px;
 }
