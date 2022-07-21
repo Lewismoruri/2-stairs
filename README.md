@@ -1,3 +1,5 @@
+# DigiHoteL
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -54,10 +56,8 @@ The technologies are:
 <ol>
 <li>HTML5</li>
 <li>CSS3</li>
-<li>Vannila JavaScript</li>
+<li>Vanilla JavaScript</li>
 <li>Figma</li>
-<li>Fontawesome icons</li>
-<li>Google fonts ("Cormorant Upright")</li></ol>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ This is the Login page:It is an entry page to a website that requires user ident
 
 
 ## Future-implementations 
-- JavaScript
+
 - Search APIs
   
   ## Contribution
