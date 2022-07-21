@@ -94,6 +94,15 @@ body {
     cursor: pointer;
 }
 
+.button button a {
+    color: #000;
+    text-decoration: none;
+}
+
+.button button a:hover {
+    color: #f3e874ff;
+}
+
 .button button:hover {
     border: 2px solid #f3e874ff;
     background: transparent;
