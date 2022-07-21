@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Cormorant Upright', serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 h2 {
     margin-top: 3.0vh;
 }
