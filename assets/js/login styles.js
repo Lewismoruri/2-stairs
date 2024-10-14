@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = login.password.value;
 
     if (username === "" && password === "") {
-        alert("You have successfully logged in.");
+        alert("Successful login");
         location.reload();
     }else {
         loginErrorMsg.style.opacity = 1;
