@@ -1,27 +1,27 @@
 const wines = [
     {
       title: "Generali Meakins",
-      price: "$56",
+      price: "Ksh 4700",
       tags: "AU | Bottle"
     },
     {
       title: "Ka Quarter",
-      price: "$59",
+      price: "Ksh 5900",
       tags: "AU | Bottle"
     },
     {
       title: "La Vieillw Rose",
-      price: "$44",
+      price: "Ksh 440",
       tags: "FR | 750 ml"
     },
     {
       title: "Rhino Pale Ale",
-      price: "$31",
+      price: "Ksh 3800",
       tags: "CA | 750 ml"
     },
     {
       title: "Irish Guinness",
-      price: "$26",
+      price: "Ksh 4200",
       tags: "IE | 750 ml"
     }
   ];
@@ -30,27 +30,27 @@ const wines = [
 const cocktails = [
     {
       title: 'Aperol Sprtiz',
-      price: '$20',
+      price: 'Ksh 20000',
       tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
     },
     {
       title: "Dark 'N' Stormy",
-      price: '$16',
+      price: 'Ksh 16000',
       tags: 'Dark rum | Ginger beer | Slice of lime',
     },
     {
       title: 'Daiquiri',
-      price: '$10',
+      price: 'Ksh 10500',
       tags: 'Rum | Citrus juice | Sugar',
     },
     {
       title: 'Old Fashioned',
-      price: '$31',
+      price: 'Ksh 31600',
       tags: 'Bourbon | Brown sugar | Angostura Bitters',
     },
     {
       title: 'Negroni',
-      price: '$26',
+      price: 'Ksh 26200',
       tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
     },
   ];
